@@ -68,6 +68,8 @@
   }, {
     "id" : "org.talend.studio.components.tck.jms.connector.feature.feature.group"
   }, {
+    "id" : "org.talend.studio.components.tck.jsonValidator.feature.feature.group"
+  }, {
     "id" : "org.talend.studio.components.tck.kudu.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.odata.feature.feature.group"

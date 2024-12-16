@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" name="TXTpath" prompt="TXTpath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\public\phones" internalId="_OHseIOwiEe6ymITDvVYglg"/>
-    <contextParameter comment="" name="PC_API_KEY" prompt="PC_API_KEY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="b368e1f9-d970-4700-92a0-5a053dd7d21a" internalId="_Q2-IgBIZEe-wWI4cxLnM5w"/>
-    <contextParameter comment="" name="PC_URL" prompt="PC_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://phones-dswkueq.svc.aped-4627-b74a.pinecone.io" internalId="_Q2-IgRIZEe-wWI4cxLnM5w"/>
+    <contextParameter comment="" name="TXTpath" prompt="TXTpath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Demo" internalId="_OHseIOwiEe6ymITDvVYglg"/>
+    <contextParameter comment="" name="PC_API_KEY" prompt="PC_API_KEY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="pcsk_7Gw2j3_RJEf6o5RPtmKv44tH3yDSkYju6J3XfZBi4GYhLw7jKTSNWq59PJ8gpSnu6qkTzL" internalId="_Q2-IgBIZEe-wWI4cxLnM5w"/>
+    <contextParameter comment="" name="PC_URL" prompt="PC_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://phones-hkrmkcx.svc.aped-4627-b74a.pinecone.io" internalId="_Q2-IgRIZEe-wWI4cxLnM5w"/>
     <contextParameter comment="" name="OAI_KEY" prompt="OAI_KEY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="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" internalId="_G8sKsBwfEe-z6b6V2LOp2g"/>
     <contextParameter comment="" name="Embedding_model" prompt="Embedding_model?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="text-embedding-ada-002" internalId="_G8sKsRwfEe-z6b6V2LOp2g"/>
   </context>
@@ -50,7 +50,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:pqAbrryyeYFa6AErP2/O1PifsfyBxAN6UHiuI01q" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:1BpzAGnzVuv+jDClilm2oWNKLEKDGslsuLt/WCFL" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -65,7 +65,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/lbaribaud/Downloads/Talend-Studio-20231024_1000-V8.0.1/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/talend_builds/Talend-Studio-8.0.1/Talend-Studio-20221003_1400-V8.0.1/workspace/.metadata&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
@@ -85,7 +85,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:aLK1sD5PzIPUh3yKsJ5aqYrJLZqp89A6QV3f9wD5" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lckcxrcvs8qtAY8dEY5u/yA+hl7gV5yQYKNvRvr7" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -110,14 +110,14 @@
   </parameters>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-120" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1" show="false"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/Documentation/PhoneReview&quot;"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/Demo&quot;"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
     <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
     <elementParameter field="CHECK" name="ERROR" value="false"/>
     <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
     <elementParameter field="TABLE" name="FILES">
-      <elementValue elementRef="FILEMASK" value="&quot;*.txt&quot;"/>
+      <elementValue elementRef="FILEMASK" value="&quot;*.txt&quot;" id="0"/>
     </elementParameter>
     <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
     <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
@@ -146,7 +146,7 @@
       <column defaultValue="" key="false" length="0" name="content" nullable="true" precision="0" sourceType="" type="id_Object" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="48" posY="232">
+  <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="80" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_1" show="false"/>
     <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
     <elementParameter field="MEMO_JAVA" name="CODE_START" value="&#xA;//String regex = &quot;(?:\\d(?:\\.\\d)?[A-Z]{5})\\b&quot;;&#xA;//Pattern pattern = Pattern.compile(regex);&#xA;int nbParts=2;"/>
@@ -156,13 +156,13 @@
     <elementParameter field="CHECK" name="Version_V3_2" value="false" show="false"/>
     <elementParameter field="CHECK" name="Version_V4.0" value="true" show="false"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.util.regex.*;"/>
-    <elementParameter field="TEXT" name="LABEL" value="Chunking"/>
+    <elementParameter field="TEXT" name="LABEL" value="Chunk"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaFlex_1">
       <column comment="" key="false" length="-1" name="chunk" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="8" offsetLabelY="1" posX="208" posY="232">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="8" offsetLabelY="1" posX="240" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -176,8 +176,8 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="chunk"/>
-      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="chunk" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -187,33 +187,29 @@
       <column comment="" key="false" length="-1" name="chunk" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="OpenAIClient" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="360" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOpenAIClient_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="b3BlbmFpLXN0dWRpbyNPcGVuQUkjQ2xpZW50" show="false"/>
+  <node componentName="EmbeddingAI" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="360" posY="120">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tEmbeddingAI_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="ZW1iZWRkaW5nQUkjRW1iZWRkaW5nI0FJ" show="false"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TEXT" name="LABEL" value="Vectorizing"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.token" value="enc:system.encryption.key.v1:z38gTtA1HOgXv4grHybwWqJuY/Vqq+57Quj7FQokEj/lGD+7wrxEKdpbRzhJn3c8OHCWOUcDFebyz+WFl+UY2PA5AbDMNjhq83kFguqveEqC"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.configuration.model" value="text-embedding-ada-002"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.base" value="https://api.openai.com"/>
-    <elementParameter field="TEXT" name="configuration.dataset.configuration.endpoint" value="v1/embeddings"/>
-    <elementParameter field="CHECK" name="configuration.dataset.configuration.useJSON" value="true"/>
-    <elementParameter field="TACOKIT_TEXT_AREA" name="configuration.dataset.configuration.jsonValue" value="{&#xD;&#xA;  &quot;input&quot;:&quot;{.input.chunk}&quot;,&#xD;&#xA;  &quot;model&quot;: &quot;text-embedding-ada-002&quot;,&#xD;&#xA;  &quot;encoding_format&quot;: &quot;float&quot;&#xD;&#xA;}"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.configuration.format" value="JSON"/>
-    <elementParameter field="TEXT" name="configuration.dataset.configuration.selector" value=".data[*]"/>
-    <elementParameter field="CHECK" name="configuration.dataset.configuration.outputKeyValuePairs" value="false"/>
-    <elementParameter field="TABLE" name="configuration.dataset.configuration.keyValuePairs" show="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataset.__version" value="2" show="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataset.datastore.__version" value="2" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Vectorize with tEmbeddingAI"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.platform" value="AZURE_OPENAI"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.modelName" value="text-embedding-3-small"/>
+    <elementParameter field="PASSWORD" name="configuration.token" value="enc:system.encryption.key.v1:d7euwa4lipnQYbsOXz/9UoQzaXWQ72U1auNB6aEWupJxHFRYc1YIjMMl7fZzFwcETknDPU1PfRSCk985JxU="/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.region" value="us-east-1" show="false"/>
+    <elementParameter field="TEXT" name="configuration.azureEndpoint" value="https://lab-openai-testing.openai.azure.com/"/>
+    <elementParameter field="CHECK" name="configuration.useLocalONNXFile" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.poolingMode" value="MEAN" show="false"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.contentColumn" value="chunk"/>
     <metadata connector="LOOKUP" name="LOOKUP"/>
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
-    <metadata connector="FLOW" name="tOpenAIClient_1">
+    <metadata connector="FLOW" name="tEmbeddingAI_1">
       <column comment="" key="false" length="-1" name="embedding" nullable="true" pattern="" precision="-1" sourceType="" type="id_List" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="520" posY="240">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -227,8 +223,8 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="embedding"/>
-      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="embedding" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -238,12 +234,12 @@
       <column comment="" key="false" length="-1" name="embedding" nullable="true" pattern="" precision="-1" sourceType="" type="id_List" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="680" posY="160" sizeX="41" sizeY="40">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="120" sizeX="41" sizeY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_pCVj4BwrEe-axKey2bKWVA-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_di1hkLJTEe-MtPghBHGbdw-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -259,7 +255,7 @@
       <column comment="" key="false" length="-1" name="text" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="row99">
         <mapperTableEntries name="id" expression="(String)globalMap.get(&quot;id&quot;)" type="id_String" nullable="true"/>
@@ -271,15 +267,15 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="PineconeClient" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="800" posY="240">
+  <node componentName="PineconeClient" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="760" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPineconeClient_1" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="cGluZWNvbmUtc3R1ZGlvI1BpbmVjb25lI0NsaWVudA" show="false"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="TEXT" name="LABEL" value="Upsert to Pinecone"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.apiKey" value="enc:system.encryption.key.v1:Ul9FaYZ2WisLh955j1wFRrT9nACatl4o46+xj0/kWG1A+LiSoKAP894emQbWcme2O0QKsryIQjxemy+ANzJDwqFv"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.indexEndpoint" value="https://phones-86i1tgw.svc.aped-4627-b74a.pinecone.io"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.apiKey" value="enc:system.encryption.key.v1:nwnS5Py52mosGwDIWKfOYLV7TbCfhDl/Ke/aOn/hfGkfyzP71GqjFTDQilyu2s/Wcpiov8cAQ11PpaRA9afVbIlYu9Kb7qA0Sn63VINKMUjA1av8bR9rhrPdM0NxR6Y+S5T3mKWQ8A77"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.indexEndpoint" value="https://phones-hkrmkcx.svc.aped-4627-b74a.pinecone.io"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.operation" value="UPSERT"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.namespace" value="phones"/>
     <elementParameter field="TEXT" name="configuration.dataset.queryConfig.topK" value="1" show="false"/>
@@ -296,7 +292,7 @@
       <column comment="" defaultValue="" key="false" length="-1" name="upsertedCount" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="240">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="920" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_4" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -310,8 +306,8 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="upsertedCount"/>
-      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="upsertedCount" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -329,15 +325,15 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tJavaFlex_1" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_1" target="tLogRow_1">
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tJavaFlex_1" offsetLabelX="-50" offsetLabelY="-3" source="tJavaFlex_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tLogRow_1" offsetLabelX="0" offsetLabelY="0" source="tLogRow_1" target="tOpenAIClient_1">
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tLogRow_1" offsetLabelX="0" offsetLabelY="0" source="tLogRow_1" target="tEmbeddingAI_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tOpenAIClient_1" offsetLabelX="0" offsetLabelY="0" source="tOpenAIClient_1" target="tLogRow_2">
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tEmbeddingAI_1" offsetLabelX="0" offsetLabelY="0" source="tEmbeddingAI_1" target="tLogRow_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
   </connection>
@@ -351,9 +347,9 @@
   </connection>
   <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tPineconeClient_1" offsetLabelX="0" offsetLabelY="0" source="tPineconeClient_1" target="tLogRow_4">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="matches"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="matches" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>

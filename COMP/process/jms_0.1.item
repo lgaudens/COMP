@@ -100,65 +100,60 @@
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
     <routinesParameter id="_p15iwA0QEeqQ96NUWHog4Q" name="d"/>
   </parameters>
-  <node componentName="tMilvusConnection" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="200" posY="200">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMilvusConnection_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bWlsdnVzI01pbHZ1cyNJbnB1dAConnection" show="false"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TECHNICAL" name="configuration.__version" value="-1" show="false"/>
-    <metadata connector="FLOW" name="tMilvusConnection_1"/>
-    <metadata connector="LOOKUP" name="LOOKUP"/>
-    <metadata connector="MERGE" name="MERGE"/>
-    <metadata connector="REJECT" name="REJECT"/>
+  <node componentName="tJMSInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="280">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJMSInput_1" show="false"/>
+    <elementParameter field="MODULE_LIST" name="DRIVER_JAR" value=""/>
+    <elementParameter field="TEXT" name="CONTEXT_PROVIDER" value="&quot;org.apache.activemq.jndi.ActiveMQInitialContextFactory&quot;"/>
+    <elementParameter field="TEXT" name="SERVER_URL" value="&quot;tcp://localhost:61616&quot;"/>
+    <elementParameter field="TEXT" name="CONN_FACTORY_NAME" value="&quot;ConnectionFactory&quot;"/>
+    <elementParameter field="CHECK" name="USER_IDENTITY" value="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:upxGzPwkyZhTkngadaM3pXiuut1f8xauFyaoJmgG" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_SUB" value="false"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SUBSCRIBER_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_JNDI_LOOKUP" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="MSGTYPE" value="Topic"/>
+    <elementParameter field="TEXT" name="FROM" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TIMEOUT" value="-1"/>
+    <elementParameter field="TEXT" name="MAX_MSG" value="-1"/>
+    <elementParameter field="TEXT" name="MSG_SELECTOR" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESSING_MODE" value="RAW"/>
+    <elementParameter field="TABLE" name="ADVANCED_PROPERTIES"/>
+    <elementParameter field="CHECK" name="USE_JAVAX_JMS" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJMSInput_1">
+      <column defaultValue="" key="false" length="0" name="message" nullable="true" precision="0" sourceType="" type="id_Object" originalLength="-1" usefulColumn="true"/>
+    </metadata>
   </node>
-  <node componentName="MilvusInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="400" posY="200">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMilvusInput_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bWlsdnVzI01pbHZ1cyNJbnB1dA" show="false"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.inputOperation" value="QUERY"/>
-    <elementParameter field="TEXT" name="configuration.limit" value="10"/>
-    <elementParameter field="TEXT" name="configuration.offset" value="0"/>
-    <elementParameter field="CHECK" name="configuration.loadCollection" value="false"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
-    <elementParameter field="TECHNICAL" name="configuration.dataset.__version" value="-1" show="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataset.datastore.__version" value="-1" show="false"/>
-    <metadata connector="FLOW" name="tMilvusInput_1"/>
-    <metadata connector="LOOKUP" name="LOOKUP"/>
-    <metadata connector="MERGE" name="MERGE"/>
-    <metadata connector="REJECT" name="REJECT"/>
-  </node>
-  <node componentName="MilvusOutput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="200">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMilvusOutput_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bWlsdnVzI01pbHZ1cyNPdXRwdXQ" show="false"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.operation" value="INSERT"/>
-    <elementParameter field="TEXT" name="configuration.$maxBatchSize" value="1000"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataset.__version" value="-1" show="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataset.datastore.__version" value="-1" show="false"/>
-    <metadata connector="FLOW" name="tMilvusOutput_1"/>
-    <metadata connector="LOOKUP" name="LOOKUP"/>
-    <metadata connector="MERGE" name="MERGE"/>
-    <metadata connector="REJECT" name="REJECT"/>
+  <node componentName="tJMSOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="440" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJMSOutput_1" show="false"/>
+    <elementParameter field="MODULE_LIST" name="DRIVER_JAR" value=""/>
+    <elementParameter field="TEXT" name="CONTEXT_PROVIDER" value="&quot;org.apache.activemq.jndi.ActiveMQInitialContextFactory&quot;"/>
+    <elementParameter field="TEXT" name="SERVER_URL" value="&quot;tcp://localhost:61616&quot;"/>
+    <elementParameter field="TEXT" name="CONN_FACTORY_NAME" value="&quot;ConnectionFactory&quot;"/>
+    <elementParameter field="CHECK" name="USER_IDENTITY" value="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rndBFyBdjm4BEgfCM8ZZQS0WU9mB5fd/90HAGrIL" show="false"/>
+    <elementParameter field="CHECK" name="USE_JNDI_LOOKUP" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="MSGTYPE" value="Topic"/>
+    <elementParameter field="TEXT" name="TO" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESSING_MODE" value="RAW"/>
+    <elementParameter field="CLOSED_LIST" name="DELIVERY_MODE" value="NON_PERSISTENT"/>
+    <elementParameter field="TABLE" name="ADVANCED_PROPERTIES"/>
+    <elementParameter field="CHECK" name="USE_JAVAX_JMS" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJMSOutput_1">
+      <column defaultValue="" key="false" length="0" name="message" nullable="true" precision="0" sourceType="" type="id_Object" originalLength="-1" usefulColumn="true"/>
+    </metadata>
   </node>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMilvusConnection_1" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJMSInput_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMilvusInput_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMilvusOutput_1" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJMSOutput_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>

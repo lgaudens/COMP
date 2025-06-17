@@ -168,9 +168,9 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="TEXT" name="configuration.datastore.host" value="https://qdi-dev.us.qlik-stage.com/"/>
     <elementParameter field="PASSWORD" name="configuration.datastore.apiKey" value="enc:system.encryption.key.v1:Er/AAiGeznVVxiM79KFZrIHH8rJUP4b4INdslvippdhHY3ghap2L8/wXvY8Tyrkz1hJkLAuXRSGrA4Y1swTnilK71BMMxfXWCBsiomNpz9Ws+nHRZcneyVYy5/bIExsSNapaz668Rk9/KPxX529iZRv1DJ7yLhcywwowrjHHZIDEsJ572/0lBDuWk1M5s65qf4aAS/BfpPf8RBt0GJ/YSMby665YTCf9d6GQXifOYTJhtA45wlc+L+L8Tt/TWuu5a8vhFWApFSqW4Ajxlz8bYhQPre9UCfbOZM5dhZ4DGGaj1BxBpv3DucSpGepGVR/jUhjCSJA5mkt8oLph6xKashWsz9EeLZxgNfyonCDYvZYX69phXfNg1+ATOLIYWn2a+Rqga/yniwUJXFOyde9Lksl/XfXz1n2s2v/yuD7iFNvtqXazcN9AT7ixR/QzjfyIA0xGNfJyIHqUJ6SeD70ny0u24XVlswIHc91I+hBNzJYnqUad0k4GH2B4+DNWkCvLDQ6D4uP1SCBXDeITK3rfhgHkJw/yies8k19xGeGp0dWSc9RNQV2x+VoJPLRtNaPFHU8pJHXce40Zzr41ZLf+j2G8EU46mddbgxI7ZcX52YbjFpILqSV2agXE+SrqE3nst7DL3PV+gs9nPUuSsB25yzUF5UkMrHk="/>
-    <elementParameter field="CLOSED_LIST" name="configuration.outputAction" value="OVERWRITE"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.outputAction" value="CREATE"/>
     <elementParameter field="FILE" name="configuration.localFile" value="&quot;C:/tmp/generated-qvd.qvd&quot;"/>
-    <elementParameter field="CHECK" name="configuration.specifyId" value="false"/>
+    <elementParameter field="CHECK" name="configuration.specifyId" value="false" show="false"/>
     <elementParameter field="TEXT" name="configuration.fileName" value="generated-qvd.qvd"/>
     <elementParameter field="TECHNICAL" name="configuration.datastore.__version" value="-1" show="false"/>
     <metadata connector="FLOW" name="tQlikOutput_1"/>

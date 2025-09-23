@@ -20,20 +20,20 @@
     <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
-    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
-    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
     <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
     <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
     <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
     <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
     <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
-    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/talend_builds/Studio-8.0.2/workspace/in.csv&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
     <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="ORACLE_12" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
     <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -44,7 +44,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:bmY63Ao1V8ywtuqk/safvqwqJf556P1h10nzDiBa" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:1BpzAGnzVuv+jDClilm2oWNKLEKDGslsuLt/WCFL" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -52,14 +52,14 @@
     <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
     <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
     <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
-    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true" show="false"/>
-    <elementParameter field="CHECK" name="DISABLE_INFO" value="true" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/talend_builds/Studio-8.0.2/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/talend_builds/Talend-Studio-8.0.1/Talend-Studio-20221003_1400-V8.0.1/workspace/.metadata&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
@@ -79,7 +79,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:by/WXOddstCvZVa2O3+auYVUAKVLEKO2Q8cS3Vb3" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lckcxrcvs8qtAY8dEY5u/yA+hl7gV5yQYKNvRvr7" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -98,52 +98,35 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_p15iwA0QEeqQ96NUWHog4Q" name="d"/>
   </parameters>
-  <node componentName="tS3Connection" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="200" posY="120">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3Connection_1" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.credentialProvider" value="WEB_TOKEN"/>
-    <elementParameter field="FILE" name="configuration.ProfileCredentialConfiguration.profilePath" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="configuration.ProfileCredentialConfiguration.profileName" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="configuration.staticCredentialConfiguration.accessKey" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.staticCredentialConfiguration.secretKey" value="enc:system.encryption.key.v1:PLJGsxxMobe8swvzZtpir7LGvmBaZZveDKLFwd0R" show="false"/>
-    <elementParameter field="CHECK" name="configuration.assumeRole" value="false"/>
-    <elementParameter field="TEXT" name="configuration.assumeRoleConfiguration.arn" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="configuration.assumeRoleConfiguration.roleSessionName" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="configuration.assumeRoleConfiguration.sessionDuration" value="15" show="false"/>
-    <elementParameter field="OPENED_LIST" name="configuration.region" value="DEFAULT"/>
-    <elementParameter field="CHECK" name="configuration.clientSideEncrypt" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.keyType" value="KMS_CMK" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.algorithmSymmetricMasterKey" value="AES" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.algorithmAsymmetricMasterKey" value="RSA" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.encoding" value="BASE64" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.kmsKey" value="enc:system.encryption.key.v1:QZ20rKA7uU2CC6x8+q908vsyBbHUtqRFVmObqcLc" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.encryptedKeyBase64" value="enc:system.encryption.key.v1:gsxkP/g+axglyxY7/S+Kg4C/LJc7vfZUJCfftj43" show="false"/>
-    <elementParameter field="FILE" name="configuration.encryptedFileX509" value="&quot;&quot;" show="false"/>
-    <elementParameter field="FILE" name="configuration.publicKey" value="&quot;&quot;" show="false"/>
-    <elementParameter field="FILE" name="configuration.privateKey" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="configuration.useRegionEndpoint" value="false"/>
-    <elementParameter field="TEXT" name="configuration.regionEndpoint" value="&quot;s3.amazonaws.com&quot;" show="false"/>
-    <elementParameter field="CHECK" name="configuration.enablePathStyleAccess" value="false" show="false"/>
-    <elementParameter field="FILE" name="configuration.webTokenCredentialConfiguration.webIdentityTokenFile" value=""/>
-    <elementParameter field="TEXT" name="configuration.webTokenCredentialConfiguration.webTokenArn" value=""/>
-    <elementParameter field="TEXT" name="configuration.webTokenCredentialConfiguration.webTokenRoleSessionName" value=""/>
-    <elementParameter field="CHECK" name="configuration.configClient" value="false"/>
-    <elementParameter field="TABLE" name="configuration.clientConfiguration" show="false"/>
-    <elementParameter field="CHECK" name="configuration.assumeRoleConfiguration.specifySTSEndpoint" value="false" show="false"/>
-    <elementParameter field="TEXT" name="configuration.assumeRoleConfiguration.stsEndpoint" value="&quot;&quot;" show="false"/>
-    <elementParameter field="OPENED_LIST" name="configuration.signingRegion" value="DEFAULT" show="false"/>
-    <elementParameter field="TEXT" name="configuration.assumeRoleConfiguration.externalId" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="configuration.assumeRoleConfiguration.serialNumber" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="configuration.assumeRoleConfiguration.tokenCode" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TABLE" name="configuration.assumeRoleConfiguration.tags" show="false"/>
-    <elementParameter field="TABLE" name="configuration.assumeRoleConfiguration.policyArns" show="false"/>
-    <elementParameter field="MEMO" name="configuration.assumeRoleConfiguration.policy" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="configuration.checkAccessibility" value="true"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.checkMethod" value="BY_ACCOUNT_OWNER"/>
-    <elementParameter field="CHECK" name="configuration.enableAccelerate" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  <node componentName="QlikOutput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="120" posY="240">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tQlikOutput_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="cWxpayNRbGlrI091dHB1dA" show="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TEXT" name="configuration.datastore.host" value="https://documentation.us.qlikcloud.com/"/>
+    <elementParameter field="PASSWORD" name="configuration.datastore.apiKey" value="enc:system.encryption.key.v1:9jtRKP0bRye5N/pYTQs68jX14rGd2W8TjOXed+pBYGqVDZIaEG8K8GdyjdOE53DSWgeKQDydIH66fC8RXremZH3ebYA4taVNNv29XwH8i0kvVMnrBxX9K7q/1xjkOQ9tHswc9Kc5vln4s0DeAj12ncdVXZri41v4WdPZAft6pOxLU/mnft3E0rpkeo5Ik1wP7cFPjV8SBkqXEbZpRSAyuxyNs3zOdquYDfb7zO/+a5tHDLBswkjUV67NKahThrHWFSl/8Tnr2bIceZmZ4BHMVRGk64BUEcdjH8mSxwmzCwl//ZVwt5O+A7nweebAtdp5kV3rx5Y9qG8+rBgdjRIbVXRYPsnGKbT30cOOsfff8al+4aWL6/dopJxB1sF5BdzIQF2+yeO0XRU5bjQ3HnIZCoUYjRHezl4eSEtTspB/UJ51DssacfNgHbOX4QXxexcc4b9YTADq5M3lKtfgWFBoHChV1lyo4vTz5KZ+KjWaTjm5zlHidBgq9mqrmsRojTNjeIS4DyDePp2KpbveotpSprRvMbN/vk47qyy4/X5T2ksYMgCYSYa0ijC+4dOb0oi+18++7ERnPZ3fbiyQWhq6V8nJ9kusyAf4LR8bo27QzswMnQGiw3+iIIKJB2FI59/FFFw3JjtiRtpgw5wY6LjIDWZpmxEjG4E="/>
+    <elementParameter field="CLOSED_LIST" name="configuration.outputAction" value="OVERWRITE"/>
+    <elementParameter field="FILE" name="configuration.localFile" value="&quot;C:/Users/NYS/Downloads/PasswordGuidelinesV2.txt&quot;"/>
+    <elementParameter field="CHECK" name="configuration.specifyId" value="false"/>
+    <elementParameter field="TEXT" name="configuration.fileName" value="PasswordGuidelines.txt"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.spaceId" value="68cbd66a1e5dabb58086708d"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.knowledgeBaseId" value="d2192f50-4ec8-405b-807f-d73e654e52b7"/>
+    <elementParameter field="CHECK" name="configuration.indexKnowledgeBaseFile" value="true"/>
+    <elementParameter field="TEXT" name="configuration.indexationNumberOfRetries" value="10"/>
+    <elementParameter field="TEXT" name="configuration.indexationDelayBetweenRetriesInSeconds" value="10"/>
+    <elementParameter field="TECHNICAL" name="configuration.datastore.__version" value="-1" show="false"/>
+    <metadata connector="FLOW" name="tQlikOutput_1"/>
+    <metadata connector="FLOW" name="tQlikOutput_1"/>
+    <metadata connector="LOOKUP" name="LOOKUP"/>
+    <metadata connector="MERGE" name="MERGE"/>
+    <metadata connector="REJECT" name="REJECT"/>
   </node>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3Connection_1" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tQlikOutput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
 </talendfile:ProcessType>

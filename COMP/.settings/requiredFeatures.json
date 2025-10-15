@@ -114,6 +114,8 @@
   }, {
     "id" : "org.talend.lite.dq.feature.feature.group"
   }, {
+    "id" : "org.talend.lite.esb.ai.feature.feature.group"
+  }, {
     "id" : "org.talend.lite.esb.apidesigner.feature.feature.group"
   }, {
     "id" : "org.talend.lite.metadata.bridge.feature.feature.group"
@@ -135,6 +137,8 @@
     "id" : "org.talend.studio.components.tck.claude.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.cyberarkrest.connector.feature.feature.group"
+  }, {
+    "id" : "org.talend.studio.components.tck.dsql4json.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.embeddingAI.feature.feature.group"
   }, {

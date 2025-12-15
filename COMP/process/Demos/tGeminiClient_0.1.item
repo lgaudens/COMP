@@ -106,8 +106,8 @@
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.apiKey" value="enc:system.encryption.key.v1:Dmhi4s2NMB2c0GbiFMNgDlbd9ifwa8SThF4PMVlMlz0JNrgmaKeZxJSarcJ7XGE2hlkvwgTGwAjFUgBghi+PlgHOt5/i"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.configuration.model" value="gemini-3-pro-preview"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.apiKey" value="enc:system.encryption.key.v1:v8jpBPT8vK5B//GwJ2CgbCIILA2DqeZrbn9rN+Nq6Pi9n6hQNsL8T/rSQyPpSpAgjxsEnG5GPoSUq8xYYiPoUNFHTCNs"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.configuration.model" value="gemini-2.5-flash"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.base" value="https://generativelanguage.googleapis.com"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.apiVersion" value="v1beta"/>
     <elementParameter field="TEXT" name="configuration.dataset.configuration.endpoint" value=":generateContent"/>
